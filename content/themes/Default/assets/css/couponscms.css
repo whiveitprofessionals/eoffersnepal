@@ -1,0 +1,242 @@
+input,
+select,
+textarea,
+button,
+a.butt {
+    background-color: #fff;
+    width: 100%;
+    height: 35px;
+    line-height: normal;
+    padding: 0 12px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: inset 0 1px 3px #ddd;
+    transition: all 0.15s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid rgba(15, 21, 26, 1);
+}
+
+button,
+a.butt {
+    display: inline-block;
+    background-color: rgba(15, 21, 26, 1);
+    color: #fff;
+    border: 0;
+    line-height: initial;
+    box-shadow:  none;
+    cursor: pointer;
+}
+
+button:hover,
+a.butt:hover,
+.button-disabled {
+    background-color: #d61919!important;
+}
+
+.button-disabled {
+    opacity: 0.5;
+}
+
+input[type="checkbox"],
+button,
+a.butt {
+    width: auto;
+}
+
+input[disabled] {
+    cursor: not-allowed!important;
+    opacity: 0.8;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.other_form .form_field {
+    margin-bottom: 10px;
+}
+
+.other_form .form_field label {
+    margin-bottom: 5px;
+}
+
+.other_form .form_field input[type="checkbox"], .checkbox {
+    display: none;
+}
+
+.other_form .form_field input[type="checkbox"] + label:before,
+.other_form .form_field input[type="checkbox"]:checked + label:before,
+.checkbox + label:before,
+.checkbox:checked + label:before {
+    font-family:'FontAwesome';
+    content: "\f00d";
+    display: inline-block;
+    line-height: 25px;
+    width: 27px;
+    margin-right: 5px;
+    color: rgba(15, 21, 26, 1);
+    text-align:center;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 50%;
+}
+
+.other_form .form_field input[type="checkbox"]:checked + label:before,
+.checkbox:checked + label:before {
+    content: "\f00c";
+}
+
+.other_form .form_field input[type="checkbox"] + label,
+.checkbox + label {
+    cursor: pointer;
+}
+
+.login_form button:before,
+.register_form button:before,
+.contact_form button:before,
+.suggest_store_form button:before,
+.forgot_password_form button:before,
+.edit_profile_form button:before,
+.change_password_form button:before {
+    font-family:'FontAwesome';
+    content: "\f09c";
+    margin-right: 10px;
+}
+
+.register_form button:before {
+    content: "\f234";
+}
+
+.contact_form button:before,
+.suggest_store_form button:before,
+.forgot_password_form button:before {
+    content: "\f1d8";
+}
+
+.edit_profile_form button:before,
+.change_password_form button:before {
+    content: "\f040";
+}
+
+.edit_profile_form .form_field img,
+.edit_store_form .form_field img,
+.edit_coupon_form .form_field img,
+.edit_product_form .form_field img,
+.login_form .form_field img,
+.register_form .form_field img,
+.contact_form .form_field img,
+.suggest_store_form .form_field img,
+.subscribe_form .form_field img {
+    max-height: 100px;
+    margin-bottom: 5px;
+}
+
+.subscribe_form .form_field {
+    display: none;
+}
+
+.other_form .form_field-hours {
+    width: 100%;
+}
+
+.other_form .form_field-hours ul[data-store-hours] li > span {
+    display: table;
+    width: 100%;
+}
+
+.other_form .form_field-hours ul[data-store-hours] li > span > select:first-child {
+    margin-right: 2%;
+}
+
+.other_form .form_field-hours ul[data-store-hours] li > span > select {
+    display: table-cell;
+    width: 49%;
+}
+
+.other_form .form_field-hours ul[data-store-hours] li > input:not(:checked) + label + span {
+    display: none;
+}
+
+.other_form .form_field-sellonline > input:not(:checked) + label > span:first-child {
+    display: none;
+}
+
+.other_form .form_field-sellonline > input:checked + label > span:last-child {
+    display: none;
+}
+
+.other_form .form_field-locations ul {
+    margin-bottom: 10px;
+}
+
+.other_form .form_field-locations ul li a {
+    margin-right: 10px;
+}
+
+.other_form .form_field > span  {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.other_form .form_field > span + div {
+    display: inline-block;
+}
+
+.title h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(15, 21, 26, 1);
+    padding-bottom: 10px;
+}
+
+.other_form .error, .other_form .success, .other_form .alert, .info_form, .msg-warning, .msg-success, .msg-alert {
+    color: #fff;
+    padding: 12px 10px;
+    margin-bottom: 15px;
+}
+
+.other_form .error, .msg-warning {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.other_form .success, .msg-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.other_form .alert, .info_form, .alert, .msg-alert {
+    display: block!important;
+    background-color: #f9ffcc;
+    color: rgba(15, 21, 26, 1);
+}
+
+.other_form .form_field.empty_label label {
+    display: none;
+}
+
+.other_form .submit_store_form_locations li {
+    line-height: 35px;
+}
+
+.other_form .submit_store_form_locations li a {
+    margin-right: 10px;
+}
+
+.claim_reward_form {
+    margin-top: 10px;
+}
+
+.claim_reward_form .extra_form {
+    display: none;
+}
+
+label {
+    margin-bottom: 0;
+}

@@ -1,0 +1,16 @@
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+IndexOptions +Charset=UTF-8
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+
+## Turn on rewrite engine
+RewriteEngine on
+
+## Coupons CMS v7
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^((.*?)(\-(\d+))?)\/?([.]\w+)?$ index.php?lcp=$1&lcp_id=$4&ext=$5 [QSA,L]
+
+</IfModule>

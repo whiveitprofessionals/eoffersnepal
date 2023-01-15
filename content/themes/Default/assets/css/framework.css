@@ -1,0 +1,113 @@
+.mb0 { margin-bottom: 0!important; }
+.mb5 { margin-bottom: 5px!important; }
+.mb10 { margin-bottom: 10px!important; }
+.mb15 { margin-bottom: 15px!important; }
+.mb20 { margin-bottom: 20px!important; }
+.mb25 { margin-bottom: 25px!important; }
+.mb30 { margin-bottom: 30px!important; }
+.mb35 { margin-bottom: 35px!important; }
+.mb40 { margin-bottom: 40px!important; }
+.mb45 { margin-bottom: 45px!important; }
+.mb50 { margin-bottom: 50px!important; }
+
+.mt0 { margin-top: 0!important; }
+.mt5 { margin-top: 5px!important; }
+.mt10 { margin-top: 10px!important; }
+.mt15 { margin-top: 15px!important; }
+.mt20 { margin-top: 20px!important; }
+.mt25 { margin-top: 25px!important; }
+.mt30 { margin-top: 30px!important; }
+.mt35 { margin-top: 35px!important; }
+.mt40 { margin-top: 40px!important; }
+.mt45 { margin-top: 45px!important; }
+.mt50 { margin-top: 50px!important; }
+
+.pb0 { padding-bottom: 0!important; }
+.pb5 { padding-bottom: 5px!important; }
+.pb10 { padding-bottom: 10px!important; }
+.pb15 { padding-bottom: 15px!important; }
+.pb20 { padding-bottom: 20px!important; }
+.pb25 { padding-bottom: 25px!important; }
+.pb30 { padding-bottom: 30px!important; }
+.pb35 { padding-bottom: 35px!important; }
+.pb40 { padding-bottom: 40px!important; }
+.pb45 { padding-bottom: 45px!important; }
+.pb50 { padding-bottom: 50px!important; }
+
+.pt0 { padding-top: 0!important; }
+.pt5 { padding-top: 5px!important; }
+.pt10 { padding-top: 10px!important; }
+.pt15 { padding-top: 15px!important; }
+.pt20 { padding-top: 20px!important; }
+.pt25 { padding-top: 25px!important; }
+.pt30 { padding-top: 30px!important; }
+.pt35 { padding-top: 35px!important; }
+.pt40 { padding-top: 40px!important; }
+.pt45 { padding-top: 45px!important; }
+.pt50 { padding-top: 50px!important; }
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+.dblock { display: block; }
+.dnone { display: none; }
+
+@media screen and (max-width: 768px) {
+    .text-left-m {  text-align: left; }
+    .text-right-m { text-align: right; }
+    .text-center-m { text-align: center; }
+
+    .mb0-m { margin-bottom: 0!important; }
+    .mb5-m { margin-bottom: 5px!important; }
+    .mb10-m { margin-bottom: 10px!important; }
+    .mb15-m { margin-bottom: 15px!important; }
+    .mb20-m { margin-bottom: 20px!important; }
+    .mb25-m { margin-bottom: 25px!important; }
+    .mb30-m { margin-bottom: 30px!important; }
+    .mb35-m { margin-bottom: 35px!important; }
+    .mb40-m { margin-bottom: 40px!important; }
+    .mb45-m { margin-bottom: 45px!important; }
+    .mb50-m { margin-bottom: 50px!important; }
+
+    .mt0-m { margin-top: 0!important; }
+    .mt5-m { margin-top: 5px!important; }
+    .mt10-m { margin-top: 10px!important; }
+    .mt15-m { margin-top: 15px!important; }
+    .mt20-m { margin-top: 20px!important; }
+    .mt25-m { margin-top: 25px!important; }
+    .mt30-m { margin-top: 30px!important; }
+    .mt35-m { margin-top: 35px!important; }
+    .mt40-m { margin-top: 40px!important; }
+    .mt45-m { margin-top: 45px!important; }
+    .mt50-m { margin-top: 50px!important; }
+
+    .pb0-m { padding-bottom: 0!important; }
+    .pb5-m { padding-bottom: 5px!important; }
+    .pb10-m { padding-bottom: 10px!important; }
+    .pb15-m { padding-bottom: 15px!important; }
+    .pb20-m { padding-bottom: 20px!important; }
+    .pb25-m { padding-bottom: 25px!important; }
+    .pb30-m { padding-bottom: 30px!important; }
+    .pb35-m { padding-bottom: 35px!important; }
+    .pb40-m { padding-bottom: 40px!important; }
+    .pb45-m { padding-bottom: 45px!important; }
+    .pb50-m { padding-bottom: 50px!important; }
+
+    .pt0-m { padding-top: 0!important; }
+    .pt5-m { padding-top: 5px!important; }
+    .pt10-m { padding-top: 10px!important; }
+    .pt15-m { padding-top: 15px!important; }
+    .pt20-m { padding-top: 20px!important; }
+    .pt25-m { padding-top: 25px!important; }
+    .pt30-m { padding-top: 30px!important; }
+    .pt35-m { padding-top: 35px!important; }
+    .pt40-m { padding-top: 40px!important; }
+    .pt45-m { padding-top: 45px!important; }
+    .pt50-m { padding-top: 50px!important; }
+
+    .float-left-m { float: left; }
+    .float-right-m { float: right; }
+
+    .dblock-m { display: block; }
+    .dnone-m { display: none; }
+}

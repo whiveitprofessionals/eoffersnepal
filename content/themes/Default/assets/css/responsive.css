@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) {
+
+.list-item .list-item-content,
+.widget.item-text {
+    display: block;
+}
+
+.item-text .avatar,
+.item-text .info {
+    display: block;
+}
+
+.list-item .list-item-content .left,
+.list-item .list-item-content .middle,
+.list-item .list-item-content .right,
+.widget.item-text .avatar,
+.widget.item-text .text {
+    display: block;
+    width: 100%;
+}
+
+.icon-button span {
+    width: auto;
+}
+
+.list-item .list-item-content .extra {
+    top: 5px;
+    left: 5px;
+}
+
+.list-item .list-item-content .extra > div {
+    height: 30px!important;
+    line-height: 30px!important;
+    width: 30px!important;
+    font-size: 13px;
+}
+
+.list-item .list-item-content .extra .discount {
+    font-size: 10px;
+}
+
+.item-text .avatar img {
+    width: auto;
+    max-width: 100%;
+}
+
+.sc-form .sc-select:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.search-container .sc-select ul {
+    position: relative;
+}
+
+nav {
+    padding: 5px 0;
+}
+
+nav .main-nav li {
+    width: 100%;
+    border-bottom: 1px solid #f0efef;
+}
+
+nav .main-nav li a {
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 0;
+}
+
+nav .main-nav li ul {
+    position: relative;
+    left: 0;
+}
+
+.list-item .sub-info {
+    display: block;
+}
+
+.list-item .sub-info .left,
+.list-item .sub-info .middle,
+.list-item .sub-info .right {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.list-item .sub-info .left,
+.list-item .sub-info .middle {
+    margin-bottom: 5px;
+}
+
+.push-container {
+    max-height: 100%;
+}
+
+.push-left, .push-right {
+    position: relative;
+    max-height: 100%;
+    overflow: none;
+}
+
+footer.main ul {
+    margin-bottom: 30px;
+}
+
+}
